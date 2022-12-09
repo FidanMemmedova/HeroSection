@@ -139,6 +139,7 @@
   height: auto;
   margin: auto;
   align-items: center;
+  cursor: pointer;
 }
 #catering-diets .catering-diets-summary .diets-summary-text-items .watch_video .watch_video_btn {
   width: 53px;
