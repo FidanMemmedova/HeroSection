@@ -11,63 +11,20 @@
 #catering-diets {
   display: flex;
 }
-#catering-diets .wing {
-  position: absolute;
-}
 #catering-diets .diet-product-first {
   width: 433px;
   height: auto;
   position: relative;
 }
 #catering-diets .diet-product-first .vegan-salad {
-  width: 293px;
-  height: 383px;
+  width: 292px;
+  height: auto;
   display: block;
 }
 #catering-diets .diet-product-first .chicken-fillet-with-mushrooms {
-  width: 140px;
+  width: 186px;
   height: 273px;
   display: block;
-}
-#catering-diets .diet-product-first .wing1 {
-  left: 116px;
-  top: 37px;
-  width: 82px;
-}
-#catering-diets .diet-product-first .wing2 {
-  left: 90px;
-  top: 74px;
-  width: 36px;
-}
-#catering-diets .diet-product-first .wing3 {
-  left: 159px;
-  top: 252px;
-  width: 75px;
-}
-#catering-diets .diet-product-first .wing4 {
-  top: 43px;
-  left: 114px;
-  width: 23px;
-}
-#catering-diets .diet-product-first .wing5 {
-  right: 199px;
-  top: 255px;
-  width: 22px;
-}
-#catering-diets .diet-product-first .wing13 {
-  left: 79px;
-  bottom: 79px;
-  width: 55px;
-}
-#catering-diets .diet-product-first .wing14 {
-  width: 24px;
-  bottom: 120px;
-  left: 108px;
-}
-#catering-diets .diet-product-first .rectangle8 {
-  background: #1ac84b;
-  border-radius: 135px;
-  transform: rotate(59.01deg);
 }
 #catering-diets .catering-diets-summary {
   padding-top: 38px;
@@ -118,19 +75,9 @@
   margin-left: -2px;
   align-items: center;
 }
-#catering-diets .catering-diets-summary .catering-diets-summary-text .catering-diets .red_apple_background {
-  background: #ffb21a;
-  border-radius: 22px;
-  width: 102px;
-  height: 60px;
-  display: flex;
-  margin-top: 4px;
-  justify-content: center;
-  align-items: center;
-}
-#catering-diets .catering-diets-summary .catering-diets-summary-text .catering-diets .red_apple_background .red_apple {
-  width: 35px;
-  height: 35px;
+#catering-diets .catering-diets-summary .catering-diets-summary-text .catering-diets .red_apple {
+  width: 100px;
+  height: auto;
 }
 #catering-diets .catering-diets-summary .catering-diets-summary-text .exacting {
   display: flex;
@@ -141,18 +88,8 @@
   gap: 20px;
   align-items: center;
 }
-#catering-diets .catering-diets-summary .catering-diets-summary-text .exacting .avocado_background {
+#catering-diets .catering-diets-summary .catering-diets-summary-text .exacting .avocado {
   width: 125px;
-  height: 61px;
-  border-radius: 38px;
-  background: #1ac84b;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 7px;
-}
-#catering-diets .catering-diets-summary .catering-diets-summary-text .exacting .avocado_background .avocado {
-  width: 68px;
   height: auto;
 }
 #catering-diets .catering-diets-summary .diets-summary-text {
@@ -177,9 +114,7 @@
   display: flex;
   align-items: center;
   margin: auto;
-  padding-top: 7px;
   justify-content: center;
-  gap: 25px;
   width: 312px;
   height: auto;
 }
@@ -198,39 +133,18 @@
   color: #fdfbfa;
   cursor: pointer;
 }
-#catering-diets .catering-diets-summary .diets-summary-text-items .watch_video_btn {
+#catering-diets .catering-diets-summary .diets-summary-text-items .watch_video {
   display: flex;
-  width: 153px;
+  width: 178px;
   height: auto;
   margin: auto;
-  gap: 25px;
-}
-#catering-diets .catering-diets-summary .diets-summary-text-items .watch_video_btn .watch_video_items {
-  margin-top: 4px;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  position: relative;
-  cursor: pointer;
 }
-#catering-diets .catering-diets-summary .diets-summary-text-items .watch_video_btn .watch_video_items img {
-  position: absolute;
-}
-#catering-diets .catering-diets-summary .diets-summary-text-items .watch_video_btn .watch_video_items .ellipse_2 {
+#catering-diets .catering-diets-summary .diets-summary-text-items .watch_video .watch_video_btn {
   width: 53px;
   height: auto;
-  top: -20px;
 }
-#catering-diets .catering-diets-summary .diets-summary-text-items .watch_video_btn .watch_video_items .ellipse_1 {
-  width: 35px;
-  height: auto;
-  top: -10px;
-}
-#catering-diets .catering-diets-summary .diets-summary-text-items .watch_video_btn .watch_video_items .polygon_1 {
-  width: 9px;
-  height: auto;
-}
-#catering-diets .catering-diets-summary .diets-summary-text-items .watch_video_btn p {
+#catering-diets .catering-diets-summary .diets-summary-text-items .watch_video p {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
@@ -254,46 +168,9 @@
   height: auto;
   display: block;
 }
-#catering-diets .diet-product-second .stir-fry-chicken-sweet-peppers-green-beans {
-  width: 340px;
+#catering-diets .diet-product-second .fry-chicken-sweet-peppers {
+  width: 370px;
   height: auto;
-  margin: auto;
-  padding-top: 18px;
-}
-#catering-diets .diet-product-second .wing6 {
-  right: 52px;
-  width: 51px;
-  top: 56px;
-}
-#catering-diets .diet-product-second .wing7 {
-  bottom: 249px;
-  width: 22px;
-  right: 237px;
-}
-#catering-diets .diet-product-second .wing8 {
-  bottom: 31px;
-  left: 142px;
-  width: 46px;
-}
-#catering-diets .diet-product-second .wing9 {
-  right: 53px;
-  width: 20px;
-  top: 29px;
-}
-#catering-diets .diet-product-second .wing10 {
-  bottom: 73px;
-  left: 120px;
-  width: 48px;
-}
-#catering-diets .diet-product-second .wing11 {
-  bottom: 246px;
-  left: 97px;
-  width: 78px;
-}
-#catering-diets .diet-product-second .wing12 {
-  bottom: 68px;
-  right: 154px;
-  width: 22px;
 }
 
 @media only screen and (min-width: 1080px) and (max-width: 1439px) {
@@ -451,41 +328,6 @@
   #catering-diets .diet-product-first .chicken-fillet-with-mushrooms {
     width: 47px;
     height: 80px;
-  }
-  #catering-diets .diet-product-first .wing1 {
-    left: 39px;
-    top: 13px;
-    width: 28px;
-  }
-  #catering-diets .diet-product-first .wing2 {
-    left: 30px;
-    top: 25px;
-    width: 12px;
-  }
-  #catering-diets .diet-product-first .wing3 {
-    left: 54px;
-    top: 73px;
-    width: 26px;
-  }
-  #catering-diets .diet-product-first .wing4 {
-    top: 14px;
-    left: 38px;
-    width: 8px;
-  }
-  #catering-diets .diet-product-first .wing5 {
-    right: 15px;
-    top: 75px;
-    width: 7px;
-  }
-  #catering-diets .diet-product-first .wing13 {
-    left: 26px;
-    bottom: 26px;
-    width: 18px;
-  }
-  #catering-diets .diet-product-first .wing14 {
-    width: 8px;
-    bottom: 40px;
-    left: 36px;
   }
   #catering-diets .catering-diets-summary {
     padding-top: 38px;
@@ -685,40 +527,5 @@
     height: auto;
     margin: auto;
     padding-top: 9px;
-  }
-  #catering-diets .diet-product-second .wing6 {
-    right: 17px;
-    width: 17px;
-    top: 19px;
-  }
-  #catering-diets .diet-product-second .wing7 {
-    bottom: 67px;
-    width: 7px;
-    right: 61px;
-  }
-  #catering-diets .diet-product-second .wing8 {
-    bottom: 11px;
-    left: 47px;
-    width: 15px;
-  }
-  #catering-diets .diet-product-second .wing9 {
-    right: 18px;
-    width: 7px;
-    top: 10px;
-  }
-  #catering-diets .diet-product-second .wing10 {
-    bottom: 25px;
-    left: 40px;
-    width: 16px;
-  }
-  #catering-diets .diet-product-second .wing11 {
-    bottom: 66px;
-    left: 33px;
-    width: 26px;
-  }
-  #catering-diets .diet-product-second .wing12 {
-    bottom: 23px;
-    right: 40px;
-    width: 7px;
   }
 }
