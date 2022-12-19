@@ -1,17 +1,23 @@
-import { DietsProduct } from "DietsProduct";
-import { DietsProducts } from "DietsProducts";
-import { CateringDietsSummary } from "CateringDietsSummary";
-import { WrapperSection } from "WrapperSection";
-import "./App.scss";
+import { CateringDietsSummary } from "components/CateringDietsSummary/CateringDietsSummary";
+import { DietsProduct } from "components/DietsProduct/DietsProduct";
+import { DietsProducts } from "components/DietsProducts/DietsProducts";
+import { WrapperSection } from "components/WrapperSection/WrapperSection";
+// import "./assets/css/App.css";
 
-const App = () => {
+function App() {
   return (
-    <WrapperSection>
-      <DietsProduct />
-      <CateringDietsSummary />
-      <DietsProducts />
+    <div className="App">
+      <header></header>
+      <main>
+      <WrapperSection>
+        <DietsProduct />
+        <CateringDietsSummary />
+        <DietsProducts />
     </WrapperSection>
+      </main>
+      <footer></footer>
+    </div>
   );
-};
+}
 
-export default App;
+export default App; 

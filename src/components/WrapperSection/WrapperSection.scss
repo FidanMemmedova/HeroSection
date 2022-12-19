@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../font/Gilroy/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../font/OpenSans/OpenSans-Medium.ttf");
+}
+
+#catering-diets {
+  display: flex;
+}
+@media only screen and (min-width: 376px) and (max-width: 450px) {
+  #catering-diets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
